@@ -9,6 +9,9 @@ const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 export const metadata: Metadata = {
   title: "ARGIS Login",
   description: "Login Page",
+  icons: {
+    icon: "/ARGIS LOGO.png",
+  },
 };
 
 export default function RootLayout({
