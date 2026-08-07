@@ -77,8 +77,8 @@ float fbm(vec2 p) {
 }
 
 float pattern(vec2 p) {
-  vec2 p2 = p - time * waveSpeed * 0.45;
-  return fbm(p + fbm(p2));
+  vec2 p2 = p - time * waveSpeed;
+  return fbm(p + fbm(p2)); 
 }
 
 void main() {

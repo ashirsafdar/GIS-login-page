@@ -1,3 +1,9 @@
+import NavbarAdvanced from '@/components/navigation';
+
 export default function UIPage() {
-  return <h1 className="text-3xl font-bold text-white">UI Page</h1>;
+  return (
+    <div className="min-h-screen bg-[#0c0d0e] text-white">
+      <NavbarAdvanced title="ARGIS" location="CSD Handlers" />
+    </div>
+  );
 }
